@@ -1,0 +1,34 @@
+src/*.exe
+src/lucoin
+src/lucoind
+src/test_lucoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.lucoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+lucoin-qt
+Lucoin-Qt.app
+
+# Unit-tests
+Makefile.test
+lucoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
